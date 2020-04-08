@@ -1,0 +1,10 @@
+github.com  -> crear un repositorio remoto (que quedará en los servidores de github.com).
+git init    -> inicializa un repositorio local (en nuestro computador).
+git status  -> podemos consultar en cualquier momento el estado del repositorio.
+git add -A  -> Me agrega lo que seleccione para confirmar después.
+git commit -m "Acá el mensaje" -> Confirma los cambios agregados con git add, la confirmación añade un mensaje.
+git remote add origin https://github.com/wrodriguezmo/repositorio-prueba.git -> 
+
+CONFIGURACIONES GLOBALES
+git config --global user.email "wrodriguezmo@gmail.com"
+git config --global user.name "William Rodríguez Mora"

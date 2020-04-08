@@ -1,0 +1,107 @@
+body{
+    background: grey;
+    font-size: 2em; 
+}
+.class {
+    border: 3px solid black;
+    font-style: italic;
+}
+.europa {
+    background-color: blue;
+  }
+.titulo + p{
+    color: purple;
+    text-align: center;
+}
+.americanos + li{
+    color: red;
+    text-align: right;
+}
+.articulo + h3{
+    font-size: 1em;
+    text-align: center;
+}
+.titulo + p + p {
+    color: yellow;
+} 
+.america, .asia {
+    background-color: green;
+}
+.articulo, .asia{
+    text-align: center;
+}
+.articulo2, .europa{
+    border: red solid 3px;
+}
+.titulo2, #uno{
+    border: black solid 5px;
+}
+.titulo2, h3{
+    border: violet solid 3px
+}
+.asiaticos ~ li {
+    color: white;
+}
+#dos ~ li {
+    border: yellow solid 3px;
+}
+#uno ~ li{
+    border: turquoise solid 5px;
+}
+#tres ~ li{
+    border: black solid 5px;
+}
+#cuatro ~ li{
+    border: red solid 5px;
+}
+
+.europa > li {
+    color: white;
+}
+.asia >li{
+    font-size: 3em;
+}
+.articulo2 > p{
+    text-align: right;
+}
+.articulo2 > h3{
+    text-align: center;
+    color: chartreuse;
+}
+
+.articulo2 > h4{
+    color: crimson;
+}
+
+
+/* pesudoclases y pseudoelementos*/
+
+
+li:last-child::before {
+    content: "%%";  
+    color: red;
+    border: 1px solid white;
+    font-size: 25px;}
+.asia:hover{
+    background-color: royalblue;
+}
+.europa li:not(strong){
+    background-color: saddlebrown;
+  
+}
+.titulo, h4::first-line{
+    background-color: violet;   
+}
+
+.asia :nth-child(2n+1){
+    color: red;
+}
+
+.europa :nth-child(2n+1){
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+.america :hover{
+ background-color: darkred;
+}

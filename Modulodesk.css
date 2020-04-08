@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+    list-style: none;
+    margin: 3px 3px;
+    font-size: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+    text-align: left;
+}
+.contenedorprincipal{
+    display: flex;
+    padding: 0 1.875rem;
+}
+}
+.titulopromocion{
+        padding: 5rem 0;
+        flex: 0 0 26.25rem;
+        margin-right: 2.5rem;
+    }
+}

@@ -1,0 +1,44 @@
+
+.box{
+    background-image: url(https://www.pexels.com/search/background%20image/);
+}
+
+
+p {
+    color: blue;
+    font-size: 19px;
+    text-align: center;
+   
+}   
+
+#bogota{
+    border-width: 3px;
+    border-style: outset;
+    border-color: crimson;
+    border: 1px dotted rgb(255, 135, 155);
+    height: 200px;
+    width: 50%;
+}
+.capital {
+    Background: darkgrey;
+    padding: 25px 30px 75px 10px;
+    text-decoration: line-through;
+}
+
+#manizales{
+    background-color: darkgreen;
+    border-style: double;
+    margin: 25px 50px 75px 100px;
+     letter-spacing: 5px;
+     text-shadow: 2px 2px 5px red;
+     
+}
+h1{
+    border-radius: 35px;
+    background-color: darkred;
+    display: inline;
+    color: green;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+

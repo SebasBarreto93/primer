@@ -1,0 +1,43 @@
+.container{
+    display: flex; 
+    font-size: 7px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+.font-size{
+    font-size: 3px;
+}
+.column{
+    display: flex;
+    width: 30%;
+    justify-content: baseline;
+    align-items: center;
+    height: 300px; 
+    font-size: 3em;
+    margin: 10px;
+    border: black solid;
+}
+.noticias{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 3em; 
+    border: black solid;
+}
+.recientes{
+    display: flex;
+    height: 140px;
+    font-size: 3em;
+    margin: 80px;
+    border: black solid;
+    align-content: flex-end;
+}
+
+
+
+
+ 
+
